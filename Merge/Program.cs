@@ -3,14 +3,12 @@
 class Program{
     static void Main(){
         Random rand = new();
-        int[] numbers = new int[10];
+        int[] numbers = new int[1000000000];
 
         for(int i =0;i<numbers.Length;i++){
             numbers[i]=rand.Next(1,1000);
         }
 
-        Console.WriteLine($"Before: {string.Join(", ",numbers)}");
-        Console.WriteLine();
         MergeSort(numbers);
         Console.WriteLine($"After: {string.Join(", ",numbers)}");
     }
@@ -32,8 +30,36 @@ class Program{
         }
         MergeSort(leftHalf);
         MergeSort(rightHalf);
+
+        Merge(input,leftHalf,rightHalf);
     }
     static void Merge(int[] input,int[]leftHalf,int[]rightHalf){
+        int leftSize = leftHalf.Length;
+        int rightSize = rightHalf.Length;
 
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while(i<leftSize&&j<rightSize){
+            if(leftHalf[i]<=rightHalf[j]){
+                input[k]=leftHalf[i];
+                i++;
+            }else{
+                input[k]=rightHalf[j];
+                j++;
+            }
+            k++;
+        }
+        while (i<leftSize){
+            input[k]=leftHalf[i];
+            i++;
+            k++;
+        }
+        while (j<rightSize){
+            input[k]=rightHalf[j];
+            j++;
+            k++;
+        }
     }
 }
