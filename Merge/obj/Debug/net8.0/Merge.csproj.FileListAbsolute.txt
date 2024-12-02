@@ -1,0 +1,15 @@
+C:\Users\jacob\Desktop\Bubble\Merge\bin\Debug\net8.0\Merge.exe
+C:\Users\jacob\Desktop\Bubble\Merge\bin\Debug\net8.0\Merge.deps.json
+C:\Users\jacob\Desktop\Bubble\Merge\bin\Debug\net8.0\Merge.runtimeconfig.json
+C:\Users\jacob\Desktop\Bubble\Merge\bin\Debug\net8.0\Merge.dll
+C:\Users\jacob\Desktop\Bubble\Merge\bin\Debug\net8.0\Merge.pdb
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.AssemblyInfoInputs.cache
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.AssemblyInfo.cs
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.sourcelink.json
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.dll
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\refint\Merge.dll
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.pdb
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\Merge.genruntimeconfig.cache
+C:\Users\jacob\Desktop\Bubble\Merge\obj\Debug\net8.0\ref\Merge.dll
